@@ -30,4 +30,4 @@
 
 (deftest chapter-3-question-4
   (testing "mapset"
-    (is (= #{2 3} (mapset inc [1 1 2 2])))))
+    (is (identical? #{2 3} (mapset inc [1 1 2 2])))))
