@@ -12,5 +12,4 @@
   )
 
 (defn mapset [f vec]
-  (map f (set vec))
-  )
+  (set (map f vec)))

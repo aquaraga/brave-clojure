@@ -24,10 +24,10 @@
 (deftest chapter-3-question-3
   (testing "dec-maker"
     (let [dec9 (dec-maker 9)]
-      (is (= 1 ((dec9 10)))))
+      (is (= 1 (dec9 10))))
     )
   )
 
 (deftest chapter-3-question-4
   (testing "mapset"
-    (is (identical? #{2 3} (mapset inc [1 1 2 2])))))
+    (is (= #{2 3} (mapset inc [1 1 2 2])))))
