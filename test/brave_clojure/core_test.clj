@@ -2,6 +2,16 @@
   (:require [clojure.test :refer :all]
             [brave-clojure.core :refer :all]))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 1 1))))
+
+(deftest chapter-3-question-1
+  (testing "use-str"
+    (is (= "123" (str 1 2 3))))
+  (testing "use-vector"
+    (is (= [1 2 3] (vector 1 2 3))))
+  (testing "use-list"
+    (is (= '(1 2 3) (list 1 2 3))))
+  (testing "use-hash-map"
+    (is (= {:a 1 :b 2 :c 3} (hash-map :a 1 :b 2 :c 3))))
+  (testing "hash-set"
+    (is (= #{1 2 3} (hash-set 1 2 3 1 2 3))))
+  )
