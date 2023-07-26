@@ -1,0 +1,31 @@
+# Compiled Clojure artifacts
+*.class
+*.jar
+*.war
+*.ear
+
+# Leiningen-specific files and directories
+.lein*
+target/
+
+# IntelliJ IDE files and directories
+.idea/
+*.iml
+*.iml_data
+*.ipr
+*.iws
+out/
+
+# CIDER files and directories (optional, only if you use CIDER for Clojure development)
+.nrepl-port
+
+# Other build and development artifacts
+logs/
+repl-env
+pom.xml
+pom.xml.asc
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
