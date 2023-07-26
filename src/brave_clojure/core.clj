@@ -10,3 +10,7 @@
   (fn [x]
     (- x num))
   )
+
+(defn mapset [f vec]
+  (map f (set vec))
+  )

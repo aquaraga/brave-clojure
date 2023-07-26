@@ -27,3 +27,7 @@
       (is (= 1 ((dec9 10)))))
     )
   )
+
+(deftest chapter-3-question-4
+  (testing "mapset"
+    (is (= #{2 3} (mapset inc [1 1 2 2])))))
