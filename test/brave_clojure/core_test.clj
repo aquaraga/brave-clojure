@@ -20,3 +20,10 @@
 (deftest chapter-3-question-2
          (testing "add-100"
                   (is (= 205 (add-100 105)))))
+
+(deftest chapter-3-question-3
+  (testing "dec-maker"
+    (let [dec9 (dec-maker 9)]
+      (is (= 1 ((dec9 10)))))
+    )
+  )

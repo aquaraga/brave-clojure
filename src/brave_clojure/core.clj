@@ -4,3 +4,9 @@
 
 (defn add-100 [num]
   (+ num 100))
+
+
+(defn dec-maker [num]
+  (fn [x]
+    (- x num))
+  )
