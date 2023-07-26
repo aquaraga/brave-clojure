@@ -15,3 +15,8 @@
   (testing "hash-set"
     (is (= #{1 2 3} (hash-set 1 2 3 1 2 3))))
   )
+
+
+(deftest chapter-3-question-2
+         (testing "add-100"
+                  (is (= 205 (add-100 105)))))
